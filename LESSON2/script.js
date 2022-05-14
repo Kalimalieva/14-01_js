@@ -104,30 +104,49 @@ const array = [
 //
 // let filteruser = users.filter(user => user.salary > 500);
 // console.log(filteruser);
+//
+// const robot_users = [
+//     {
+//         robot: 'betman',
+//         force: 100,
+//         speed: 200
+//
+//     },
+//     {
+//         robot: 'amerika',
+//         force: 200,
+//         speed: 300
+//     },
+//     {
+//         robot: 'tanka',
+//         force: 300,
+//         speed: 400
+//     },
+//     {
+//         robot: 'betman',
+//         force: 400,
+//         speed: 500
+//     }
+// ]
+//
+// let robots = robot_users.filter(user => user.force > 200);
+// console.log(robots);
 
-const robot_users = [
-    {
-        robot: 'betman',
-        force: 100,
-        speed: 200
+const input = 8;
+for (let i = 1; i < 8; i++) {
+  console.log('# '.repeat(i).trim());
+};
 
-    },
-    {
-        robot: 'amerika',
-        force: 200,
-        speed: 300
-    },
-    {
-        robot: 'tanka',
-        force: 300,
-        speed: 400
-    },
-    {
-        robot: 'betman',
-        force: 400,
-        speed: 500
-    }
-]
 
-let robots = robot_users.filter(user => user.force > 200);
-console.log(robots);
+const i = 101;
+for (let i = 1; i < 101; i++) {
+    if (i % 3 === 0 && i % 5 === 0){
+       console.log( 'FizzBuzz' );
+    }else if ( i % 3 === 0){
+       console.log( 'Fizz' );
+    }else if ( i % 5 === 0){
+       console.log( 'Buzz' );
+    }else{
+       console.log(i);
+    };
+};

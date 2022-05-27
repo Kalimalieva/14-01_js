@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, rgba(180,30,222,0.9122242647058824) 0%, rgba(255,90,90,1) 50%, rgba(209,9,189,1) 100%);
+    font-family: "Lucinda Grande", "Lucinda Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.container {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.input input {
+    width: 350px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: darkmagenta;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.input button {
+    width: 50px;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+.input button:hover {
+    background-color: #aaff00;
+}
+
+.todo li {
+    color: #09f1bb;
+    font-size: 20px;
+    list-style: none;
+}
